@@ -17,7 +17,7 @@ import static uk.gov.hmcts.ccd.sdk.type.FieldType.Collection;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@JsonNaming(PropertyNamingStrategies.UpperCamelCaseStrategy.class)
+@JsonNaming(PropertyNamingStrategies.LowerCamelCaseStrategy.class)
 @Builder
 public class Sibling {
     @CCD(label = "Sibling Id")
