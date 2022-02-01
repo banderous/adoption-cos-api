@@ -185,6 +185,11 @@ public class CaseData {
     )
     private String applicant2SotFullName;
 
+    @CCD(
+        label = "PCQ ID"
+    )
+    private String pcqId;
+
     @JsonIgnore
     public String formatCaseRef(long caseId) {
         String temp = String.format("%016d", caseId);
