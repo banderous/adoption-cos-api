@@ -293,7 +293,7 @@ dependencies {
   implementation group: 'uk.gov.hmcts.reform', name: 'service-auth-provider-client', version: versions.s2sClient
 
   implementation group: 'com.github.hmcts', name: 'send-letter-client', version: '3.0.10'
-  implementation group: 'org.elasticsearch', name: 'elasticsearch', version: '7.17.0'
+  implementation group: 'org.elasticsearch', name: 'elasticsearch', version: '8.0.0'
 
   implementation group: 'com.github.hmcts', name: 'befta-fw', version: '8.6.0-prerelease'
 
@@ -349,7 +349,7 @@ dependencies {
 
   contractTestCompile group: 'au.com.dius.pact.consumer', name: 'junit5', version: versions.pact
   contractTestCompile group: 'au.com.dius.pact.consumer', name: 'java8', version: versions.pact
-  contractTestCompile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.11.0'
+  contractTestCompile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.1'
 
   contractTestImplementation group: 'au.com.dius.pact.consumer', name: 'junit5', version: versions.pact
   contractTestImplementation group: 'au.com.dius.pact.consumer', name: 'java8', version: versions.pact
